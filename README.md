@@ -62,3 +62,10 @@ The NBA published the 2025–26 opening-night roster announcement on October 21,
 https://www.nba.com/news/nba-rosters-set-for-2025-26-regular-season
 
 The current game seed is not a complete transcription of that official roster announcement.
+
+
+## Position correction hotfix 0.3
+- Corrected the position labels for all 150 featured player records using each player's primary basketball position rather than roster order.
+- Added a free-agent position filter (All, PG, SG, SF, PF, C).
+- Existing saved careers are normalized when loaded, so previously saved players receive the corrected position labels too.
+- Trade player pickers now display positions.
